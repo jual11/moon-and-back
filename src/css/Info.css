@@ -1,0 +1,66 @@
+.info-container {
+}
+
+.info-wrap {
+    background-image: url("../pictures/pattern.png");
+    background-color: #ffffff; 
+    width: 100%;
+	background-size: cover;
+    background-position: center; 
+    height: 100%; 
+}
+
+.infoText-container {
+    padding: 34px 14px; 
+}
+
+.infoBox,
+.infoTextBox {
+    margin-bottom: 36px;
+}
+
+.infoBox-container {
+    display: grid;
+}
+
+.infoText-header {
+    margin-bottom: 26px;
+}
+
+.infoContact-label {
+    margin-bottom: 20px;
+}
+
+.infoMail-container,
+.infoPhone-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.infoMail-container {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .infoBox-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .infoBox,
+    .infoTextBox {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .infoText-container {
+        padding: 56px 20px;
+        max-width: 1038px;
+        margin: auto;
+    }
+
+
+    
+}
+

@@ -1,0 +1,38 @@
+.form {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.label {
+    font-size: 16px;
+    color: #3e3e3e;
+}
+
+.input {
+    padding: 5px;
+    border: 1px solid #bdbcbc;
+    border-radius: 4px;
+    margin: 10px 20px;
+}
+
+.button {
+    padding: 6px 75px;
+    border: 0px solid #bdbcbc;
+    border-radius: 4px;
+    background-color: #39b3fb;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding: 6px 35px;
+    }
+
+    .form {
+        width: 700px;
+    }
+}
